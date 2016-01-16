@@ -11,3 +11,6 @@ git push -u origin master
 # Not sure why this isn't pushing out
 y<-c(1:100)
 plot(x,y)
+
+data<-cbind(x,y)
+write.table(data,"dataTable.txt")
